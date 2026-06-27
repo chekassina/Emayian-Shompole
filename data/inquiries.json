@@ -1,0 +1,46 @@
+[
+  {
+    "id": "inq-101",
+    "createdAt": "2026-06-25T14:30:00Z",
+    "fullName": "Dr. Elizabeth Vance",
+    "email": "e.vance@oxford.ac.uk",
+    "phone": "+44 1865 270000",
+    "stayType": "exploration_research",
+    "nights": 45,
+    "guests": 3,
+    "destinations": [
+      "Shompole Conservancy",
+      "Ewuaso Nyiro River",
+      "Maasai Cultural Villages"
+    ],
+    "activities": [
+      "Cultural tours",
+      "Wildlife tracking",
+      "Night game drives"
+    ],
+    "specialRequirements": "Conducting a research study on Ewuaso Nyiro river ecology and riparian bird nesting habits. Need dedicated local Maasai trackers and an off-grid mobile camp.",
+    "status": "Confirmed"
+  },
+  {
+    "id": "inq-102",
+    "createdAt": "2026-06-26T09:15:00Z",
+    "fullName": "Marcus & Sophia Laurent",
+    "email": "marcus.laurent@travels.fr",
+    "phone": "+33 6 1234 5678",
+    "stayType": "weekend_holiday",
+    "nights": 4,
+    "guests": 2,
+    "destinations": [
+      "Shompole Conservancy",
+      "Lake Magadi",
+      "Lake Natron"
+    ],
+    "activities": [
+      "Wildlife safaris",
+      "Hiking adventures",
+      "Photography"
+    ],
+    "specialRequirements": "Celebrating our 10th anniversary. Looking for a luxury photography safari, especially interested in capturing the pink flamingos and leopards at night.",
+    "status": "Reviewed"
+  }
+]

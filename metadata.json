@@ -1,0 +1,6 @@
+{
+  "name": "Emayian Shompole Safaris",
+  "description": "An elegant, custom safari travel portal for Emayian Shompole Safaris in southern Kenya, featuring destination guides, wildlife highlights, booking inquiry synchronization, and a Gemini-powered personalized day-by-day itinerary planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
