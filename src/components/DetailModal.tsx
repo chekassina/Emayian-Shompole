@@ -16,51 +16,51 @@ interface DetailModalProps {
 
 // Helper to resolve related folder photos for each item
 const getFolderPhotos = (type: "tour" | "destination" | "wildlife", item: any): string[] => {
-  if (!item) return ["/images/tap1.jpg"];
+  if (!item) return ["/images/tap26.jpg"];
   
   if (type === "tour") {
     const pkg = item as SafariPackage;
     if (pkg.id === "pkg-1") {
-      return ["/images/tap9.jpg", "/images/tap1.jpg", "/images/tap10.jpg", "/images/tap3.jpg"];
+      return ["/images/tap29.jpg", "/images/tap1.jpg", "/images/tap10.jpg", "/images/tap3.jpg"];
     } else if (pkg.id === "pkg-2") {
-      return ["/images/tap3.jpg", "/images/tap4.jpg", "/images/tap2.jpg", "/images/tap5.jpg"];
+      return ["/images/tap23.jpg", "/images/tap4.jpg", "/images/tap2.jpg", "/images/tap5.jpg"];
     } else if (pkg.id === "pkg-3") {
-      return ["/images/tap8.jpg", "/images/tap14.jpg", "/images/tap9.jpg", "/images/tap12.jpg"];
+      return ["/images/tap28.jpg", "/images/tap14.jpg", "/images/tap9.jpg", "/images/tap12.jpg"];
     } else if (pkg.id === "pkg-4") {
-      return ["/images/tap7.jpg", "/images/tap13.jpg", "/images/tap2.jpg", "/images/tap1.jpg"];
+      return ["/images/tap37.jpg", "/images/tap13.jpg", "/images/tap2.jpg", "/images/tap1.jpg"];
     }
   } else if (type === "destination") {
     const dest = item as Destination;
     if (dest.id === "dest-1") {
-      return ["/images/tap1.jpg", "/images/tap9.jpg", "/images/tap3.jpg", "/images/tap14.jpg"];
+      return ["/images/tap21.jpg", "/images/tap29.jpg", "/images/tap23.jpg", "/images/tap24.jpg"];
     } else if (dest.id === "dest-2") {
-      return ["/images/tap2.jpg", "/images/tap7.jpg", "/images/tap11.jpg", "/images/tap1.jpg"];
+      return ["/images/tap42.jpg", "/images/tap47.jpg", "/images/tap41.jpg", "/images/tap21.jpg"];
     } else if (dest.id === "dest-3") {
-      return ["/images/tap11.jpg", "/images/tap2.jpg", "/images/tap1.jpg", "/images/tap13.jpg"];
+      return ["/images/tap41.jpg", "/images/tap22.jpg", "/images/tap31.jpg", "/images/tap43.jpg"];
     } else if (dest.id === "dest-4") {
-      return ["/images/tap12.jpg", "/images/tap5.jpg", "/images/tap4.jpg", "/images/tap9.jpg"];
+      return ["/images/tap32.jpg", "/images/tap45.jpg", "/images/tap34.jpg", "/images/tap39.jpg"];
     } else if (dest.id === "dest-5") {
-      return ["/images/tap13.jpg", "/images/tap7.jpg", "/images/tap1.jpg", "/images/tap10.jpg"];
+      return ["/images/tap43.jpg", "/images/tap37.jpg", "/images/tap31.jpg", "/images/tap40.jpg"];
     } else if (dest.id === "dest-6") {
-      return ["/images/tap14.jpg", "/images/tap8.jpg", "/images/tap12.jpg", "/images/tap9.jpg"];
+      return ["/images/tap24.jpg", "/images/tap38.jpg", "/images/tap22.jpg", "/images/tap39.jpg"];
     }
   } else if (type === "wildlife") {
     const species = item as WildlifeSpecies;
     const name = species.name;
     if (name.includes("Lion")) {
-      return ["/images/tap3.jpg", "/images/tap1.jpg", "/images/tap9.jpg", "/images/tap14.jpg"];
+      return ["/images/tap22.jpg", "/images/tap30.jpg", "/images/tap20.jpg", "/images/tap24.jpg"];
     } else if (name.includes("Leopard")) {
-      return ["/images/tap4.jpg", "/images/tap3.jpg", "/images/tap12.jpg", "/images/tap10.jpg"];
+      return ["/images/tap31.jpg", "/images/tap33.jpg", "/images/tap4.jpg", "/images/tap40.jpg"];
     } else if (name.includes("Elephant")) {
-      return ["/images/tap5.jpg", "/images/tap6.jpg", "/images/tap1.jpg", "/images/tap12.jpg"];
+      return ["/images/tap32.jpg", "/images/tap35.jpg", "/images/tap31.jpg", "/images/tap22.jpg"];
     } else if (name.includes("Giraffe")) {
-      return ["/images/tap6.jpg", "/images/tap5.jpg", "/images/tap1.jpg", "/images/tap13.jpg"];
+      return ["/images/tap28.jpg", "/images/tap40.jpg", "/images/tap21.jpg", "/images/tap33.jpg"];
     } else if (name.includes("Flamingo")) {
-      return ["/images/tap2.jpg", "/images/tap11.jpg", "/images/tap1.jpg", "/images/tap13.jpg"];
+      return ["/images/tap21.jpg", "/images/tap20.jpg", "/images/tap15.jpg", "/images/tap33.jpg"];
     }
   }
   
-  return [item.image || "/images/tap1.jpg"];
+  return [item.image || "/images/tap4.jpg"];
 };
 
 export default function DetailModal({ isOpen, onClose, type, item, onBookTour }: DetailModalProps) {

@@ -2,18 +2,18 @@ import { SafariPackage, Destination, WildlifeSpecies, Testimonial, BlogArticle }
 
 // Generated image assets from tool
 export const IMAGES = {
-  shompoleHero: "/images/tap1.jpg",
-  magadiFlamingos: "/images/tap2.jpg",
-  shompoleLion: "/images/tap3.jpg",
+  shompoleHero: "/images/tap41.jpg",
+  magadiFlamingos: "/images/tap38.jpg",
+  shompoleLion: "/images/tap33.jpg",
   
   // Public high-quality curated conservation and travel photo links
-  shompoleLeopard: "/images/tap4.jpg",
-  shompoleElephant: "/images/tap5.jpg",
-  shompoleGiraffe: "/images/tap6.jpg",
-  shompoleHiking: "/images/tap7.jpg",
-  maasaiCulture: "/images/tap8.jpg",
-  shompoleCamp: "/images/tap9.jpg",
-  safariVehicle: "/images/tap10.jpg"
+  shompoleLeopard: "/images/tap42.jpg",
+  shompoleElephant: "/images/tap45.jpg",
+  shompoleGiraffe: "/images/tap36.jpg",
+  shompoleHiking: "/images/tap37.jpg",
+  maasaiCulture: "/images/tap40.jpg",
+  shompoleCamp: "/images/tap30.jpg",
+  safariVehicle: "/images/tap34.jpg"
 };
 
 export const SAFARI_PACKAGES: SafariPackage[] = [
@@ -137,7 +137,7 @@ export const DESTINATIONS: Destination[] = [
       "Prehistoric homid fossil footprints preserved along the dried clay shores"
     ],
     visitorInfo: "The mud can be extremely caustic; guests must stay strictly on designated pathways with our expert guides. Binoculars are highly recommended for non-intrusive bird observation.",
-    image: "/images/tap11.jpg"
+    image: "/images/tap24.jpg"
   },
   {
     id: "dest-4",
@@ -150,7 +150,7 @@ export const DESTINATIONS: Destination[] = [
       "Scenic riverbank sundowners and Maasai spear-throwing tournaments"
     ],
     visitorInfo: "Pack lightweight long-sleeved shirts and high-quality insect repellent for riverbank walks, particularly in the late afternoon. High binoculars recommended.",
-    image: "/images/tap12.jpg"
+    image: "/images/tap25.jpg"
   },
   {
     id: "dest-5",
@@ -163,7 +163,7 @@ export const DESTINATIONS: Destination[] = [
       "Incredible camp spots overlooking the vast African Rift"
     ],
     visitorInfo: "Requires a reasonable standard of physical fitness. Good hiking boots with deep tread are mandatory. Trekking poles are highly useful for loose volcanic shale.",
-    image: "/images/tap13.jpg"
+    image: "/images/tap23.jpg"
   },
   {
     id: "dest-6",
@@ -176,7 +176,7 @@ export const DESTINATIONS: Destination[] = [
       "Understanding how community land conservancies directly pay for local healthcare"
     ],
     visitorInfo: "Always ask your Maasai guide before taking photos of individuals. Respect local modesty guidelines. Gift purchases from the village beadwork directly go to the women's collective.",
-    image: "/images/tap14.jpg"
+    image: "/images/tap26.jpg"
   }
 ];
 
